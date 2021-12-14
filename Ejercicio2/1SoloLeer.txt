@@ -1,0 +1,7 @@
+Modificar el script del ejercicio anterior para que:
+
+    El mensaje que se muestra al usuario se almacene en una variable llamada mensaje y el funcionamiento del script sea el mismo.
+
+    El mensaje mostrado sea: 
+        Hola Mundo!
+            Que facil es incluir 'comillas simples' y "comillas dobles"
