@@ -10,7 +10,7 @@ console.log("Soy el primer script");
 
 
 const mensaje = () =>{
-    alert(`JavaScript\n
+    alert(`JavaScript\n\t
     Hola Mundo!
 Que facil es incluir 'comillas simples' y "comillas dobles""`)
 }
