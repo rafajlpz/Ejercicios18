@@ -10,11 +10,10 @@ var minimo = 1;
 
 
 const dameNumero = () => {
-    return Math.floor(Math.random() * maximo) + minimo;
-}
+    return Math.floor(Math.random() * maximo) + minimo; // Math.floor devuelve el máximo entero menor o igual a un número. || Math.random retorna un punto flotante, un número pseudo-aleatorio dentro del rango [0, 1). Esto es, desde el 0 (Incluido) hasta el 1 pero sin incluirlo (excluido), el cual se puede escalar hasta el rango deseado. 
 
 // console.log(dameNumero());
-
+}
 const lanzarDados = document.querySelector(".dados");
 
 lanzarDados.onclick = () => {
