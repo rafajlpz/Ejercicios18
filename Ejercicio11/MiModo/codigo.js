@@ -57,3 +57,4 @@ for(let i = 0; i<personas.length; i++){
     output.innerHTML += personas[i].obtDetalles(); //Que muestre cada persona que hay en personas y muestre sus detalles con la funciona obDetalles. //
     //Con el + en innerHTML obtenemos en este caso las dos personas.
 }
+
