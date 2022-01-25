@@ -14,12 +14,11 @@ const dameNumero = () => {
   // console.log(dameNumero());
 };
 const lanzarDados = document.querySelector(".dados");
-
+let array = [];
 lanzarDados.onclick = () => {
   let resDado1 = dameNumero();
   let resDado2 = dameNumero();
   let suma = resDado2 + resDado1;
-  let array = [];
 
   console.log(resDado1);
   console.log(resDado2);
@@ -29,15 +28,20 @@ lanzarDados.onclick = () => {
 
   for (let i = 0; i < 36000; i++) {
     // dameNumero();
-    array.push(dameNumero()); //O .push(suma)
-    console.log(array[i]);
+    let resDado1 = dameNumero();
+    let resDado2 = dameNumero();
+    let suma = resDado2 + resDado1;
+    array.push(`${resDado1}+${resDado2}=${suma}`); //O .push(suma)+
 
     // for(let i=0;i<36000;i++){
     //     array.push(suma);
     //     console.log(array[i]);
     // }
   }
+  console.log(array);
 };
+
+// array.push(`${resDado1}+${resDado2}=${suma}`)
 
 // dado2.onclick = () => {
 //     dameNumero();
